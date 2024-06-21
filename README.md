@@ -17,6 +17,8 @@ As robotics and augmented reality applications increasingly rely on precise and 
 ## Usage
 ### Color-Code rendering: 
 * use `colorcode_render.py` to render the Color-Code images
+### Data augmentation:
+* use `colorcode_augment_prepare.py` to generate the augmented training images
 ### Training:
 * use `colorcode_train_seg.py` to train the segmentation section of the pipeline
 * use `colorcode_train_seg_multi.py` to train the multi-object segmentation section of the pipeline
