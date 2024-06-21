@@ -1,0 +1,30 @@
+weight_segmentation_dir : "weight_segmentation"
+weight_colorcode_dir : "weight_colorcode"
+record_dir : "/content/result"
+
+device : "cuda"
+num_workers : 4
+batch_size : 16
+accum_steps : 1
+num_epochs : 150
+learning_rate : 0.001
+
+num_classes : 2 # include background as last channel
+
+num_depth_scene : 5
+num_basefilter_scene : 16
+input_channels_scene : 4 # RGB + mask_contour
+kernel_size_scened_down : 5
+kernel_size_scened_up : 3
+
+num_depth_object : 5
+num_basefilter_object : 32
+output_channels_object : 6
+kernel_size_objectd_down : 5
+kernel_size_objectd_up : 3
+square_size : 128
+
+num_depth_discr : 4
+num_basefilter_discr : 32
+kernel_size_discrd_down : 5
+

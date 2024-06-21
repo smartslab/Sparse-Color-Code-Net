@@ -1,0 +1,16 @@
+
+# symmetry x/y/z means x=-x/y=-y/z=-z, R_correct is in XYZ euler(degree) 
+
+"000001" : {"name":"ape",     "symmetry":[],   "R_correct":[]}
+"000002" : {"name":"benchvise",  "symmetry":["y"],  "R_correct":[0.018,0,0]}
+"000004" : {"name":"cam",     "symmetry":[],   "R_correct":[]}
+"000005" : {"name":"can",     "symmetry":["x"],  "R_correct":[0,0,5.055]}
+"000006" : {"name":"cat",     "symmetry":[],   "R_correct":[]}
+"000008" : {"name":"driller",   "symmetry":["y"],  "R_correct":[-0.449,0.009,1.137]}
+"000009" : {"name":"duck",    "symmetry":["y"],  "R_correct":[]}
+"000010" : {"name":"eggbox",   "symmetry":["x"],  "R_correct":[0,0,1.137]}
+"000011" : {"name":"glue",    "symmetry":["x"],  "R_correct":[0,0,0.654]}
+"000012" : {"name":"holepuncher", "symmetry":["y"],  "R_correct":[-0.237,0.004,1.01]}
+"000013" : {"name":"iron",    "symmetry":["y"],  "R_correct":[0,0,1.33]}
+"000014" : {"name":"lamp",    "symmetry":["y"],  "R_correct":[-1.63,0.055,0.664]}
+"000015" : {"name":"phone",    "symmetry":[],   "R_correct":[]}
